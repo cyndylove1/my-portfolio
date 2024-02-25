@@ -15,9 +15,9 @@ const Projects = () => {
         <div>
             <div className='grid md:grid-cols-2 md:ml-6 gap-4 grid-cols-1 2xl:mx-16 mx-4'>
                 <div className=' border-gray border-solid border-2  '>
-                    <img src={hey} alt="" className=' w-81 md:w-80' />
+                    <img src={hey} alt="" className=' w-81 md:w-80' data-aos="fade-up" data-aos-duration="300"/>
                     <div className='text-white  '>
-                        <div className='flex justify-between mt-6'>
+                        <div className='flex justify-between mt-6' data-aos="fade-up" data-aos-duration="300">
                             <div className=''>
                                 <h3 className='ml-1 text-blue font-extrabold text-2xl'>HeyWallet</h3>
                             </div>
@@ -28,7 +28,7 @@ const Projects = () => {
 
                         </div>
                         <div>
-                            <h5 className='text-white py-4 text-lg'> A simple project with aim of bringing everyone together  to bulid a better products. mange makes it simpler for software teams to plan day-day task.</h5>
+                            <h5 className='text-white py-4 text-lg' data-aos="zoom-in" data-aos-delay="200"> A simple project with aim of bringing everyone together  to bulid a better products. mange makes it simpler for software teams to plan day-day task.</h5>
                                 
                             </div>
                        
@@ -38,8 +38,8 @@ const Projects = () => {
                     
                 </div>
                 <div className="">
-                    <img src={gammer} alt=""  className='w-81 md:w-80'/>
-                    <div className='text-white flex justify-between mt-6'>
+                    <img src={gammer} alt=""  className='w-81 md:w-80'  data-aos="fade-up" data-aos-duration="300"/>
+                    <div className='text-white flex justify-between mt-6'  data-aos="fade-up" data-aos-duration="300">
                         <div className=''>
                             <h3 className='ml-1 text-blue font-extrabold text-2xl'>Game Zone</h3>
                         </div>
@@ -47,14 +47,14 @@ const Projects = () => {
                             <h2 className='mr-10 cursor-pointer text-xl hover:text-blue transition duration-500 ease-in-out'>Code Live</h2>
                         </div>
                     </div>
-                    <h5 className='text-white py-4 text-lg '> A game zone application which a player can compete  with Rakuto in this immense challenge and be the winner of all time. </h5>
+                    <h5 className='text-white py-4 text-lg' data-aos="zoom-in" data-aos-delay="300"> A game zone application which a player can compete  with Rakuto in this immense challenge and be the winner of all time. </h5>
                    
                     
                     
                 </div>
                 <div>
-                    <img src={antic} alt=""  className='w-81 md:w-80'/>
-                    <div className='text-white flex justify-between mt-6'>
+                    <img src={antic} alt=""  className='w-81 md:w-80'  data-aos="fade-up" data-aos-duration="300"/>
+                    <div className='text-white flex justify-between mt-6'  data-aos="fade-up" data-aos-duration="300">
                         <div>
                             <h3 className='ml-1 text-blue font-extrabold text-2xl'>Antic</h3>
                         </div>
@@ -62,13 +62,13 @@ const Projects = () => {
                             <h2 className='mr-10 cursor-pointer text-xl hover:text-blue transition duration-500 ease-in-out'>Code Live</h2>
                         </div>
                     </div>
-                    <h5 className='text-white py-4 text-lg'> A simple interior and exterior projects design, displaying of beautiful  interior and exterior decoration room. </h5>
+                    <h5 className='text-white py-4 text-lg'  data-aos="zoom-in" data-aos-delay="400"> A simple interior and exterior projects design, displaying of beautiful  interior and exterior decoration room. </h5>
                     
                     
                 </div>
                 <div className="">
-                    <img src={manage} alt="" className='w-81 md:w-80' />
-                    <div className='text-white flex justify-between mt-6'>
+                    <img src={manage} alt="" className='w-81 md:w-80'  data-aos="fade-up" data-aos-duration="300" />
+                    <div className='text-white flex justify-between mt-6'  data-aos="fade-up" data-aos-duration="300">
                         <div>
                             <h3 className='ml-1 text-blue font-extrabold text-2xl'>Managing</h3>
                         </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                             <h2 className='mr-10 cursor-pointer text-xl hover:text-blue transition duration-500 ease-in-out'>CodeLive</h2>
                         </div>
                     </div>
-                    <h5 className='text-white py-4 text-lg'> A simple project with aim of bringing everyone together to bulid a better products. mange makes it simpler for software teams  to plan day-day task.</h5>
+                    <h5 className='text-white py-4 text-lg'  data-aos="zoom-in" data-aos-delay="500"> A simple project with aim of bringing everyone together to bulid a better products. mange makes it simpler for software teams  to plan day-day task.</h5>
                     
                     
                 </div>
