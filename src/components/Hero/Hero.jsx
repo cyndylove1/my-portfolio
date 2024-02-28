@@ -76,7 +76,7 @@ const Hero = () => {
        
         </div>
         
-        <div className='pt-15'>
+        <div className='pt-15 md:pt-2'>
           
         <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
       </div>
