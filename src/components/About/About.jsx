@@ -26,7 +26,7 @@ const About = () => {
             
             
         </div>
-        {/* <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div> */}
+        <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
         
     </div>
     

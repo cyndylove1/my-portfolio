@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <div className='bg-black md:h-140 h-129 pt-16'>
       
-        <div className='justify-evenly md:flex-row flex flex-col items-center'>
+        <div className='justify-evenly md:flex-row flex flex-col items-center 2xl:pb-2'>
            
         <div className=' mx-6 xl:mr-32'>
          
@@ -59,7 +59,7 @@ const Hero = () => {
           
           
           
-          <div className='w-80 md:w-77 xl:w-96 mr-5 h-96 translate-x-100 translate-z-0 relative mb-10' data-aos="zoom-in" data-aos-delay="400">
+          <div className='w-81 md:w-77 xl:w-96 mr-5 h-96 translate-x-100 translate-z-0 relative mb-10' data-aos="zoom-in" data-aos-delay="400">
             
              <img src={blob} alt=""className='absolute mt-14' />
              
@@ -75,10 +75,10 @@ const Hero = () => {
          
        
         </div>
-        {/* <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div> */}
-        <div>
-          
         
+        <div className='pt-15'>
+          
+        <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
       </div>
       
         

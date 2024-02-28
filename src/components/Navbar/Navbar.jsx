@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import { SiConstruct3 } from "react-icons/si";
 import { SiConekta } from "react-icons/si";
 
@@ -32,9 +32,11 @@ const Navbar = () => {
         </div>
         <div className=' md:flex hidden py-6 md:mr-6 '>
           <ul className='flex items-center font-bold cursor-pointer'>
-            <Link to="/" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Home</Link>
-            <Link to="/About" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>About</Link>
-            <Link to="/Services" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Services</Link>
+            <li><Link to="/" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Home</Link></li>
+            <li><Link to="/About" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>About</Link></li>
+            
+            
+            <Link to="/services" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Services</Link>
             <Link to="/Skill" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Skills</Link>
             <Link to="/Projects" className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Projects</Link>
             <Link to="/Contact" className='hover:text-blue xl:mr-10 md:mr-4  transition duration-500 ease-in-out'>Contacts</Link>

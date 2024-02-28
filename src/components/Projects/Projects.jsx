@@ -13,7 +13,7 @@ const Projects = () => {
             <h6>projects i have worked on</h6>
         </div>
         <div>
-            <div className='grid md:grid-cols-2 md:ml-6 gap-4 grid-cols-1 2xl:mx-16 mx-4'>
+            <div className='grid md:grid-cols-2 md:ml-6 gap-4 grid-cols-1 2xl:mx-16 mx-4 pb-20'>
                 <div className=' border-gray border-solid border-2  '>
                     <img src={hey} alt="" className=' w-81 md:w-80' data-aos="fade-up" data-aos-duration="300"/>
                     <div className='text-white  '>
@@ -95,6 +95,7 @@ const Projects = () => {
                     
                 </div> */}
             </div>
+            <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
         </div>
     </div>
                     
