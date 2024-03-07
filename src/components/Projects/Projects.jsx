@@ -9,8 +9,7 @@ const Projects = () => {
   return (
     <div>
         <div>
-            <h2 className="text-center text-4xl text-blue py-4 font-extrabold pt-48">Projects</h2>
-            <h6>projects i have worked on</h6>
+            <h2 className="text-center text-4xl text-blue py-4 font-extrabold pt-36 pb-10">Projects</h2>
         </div>
         <div>
             <div className='grid md:grid-cols-2 md:ml-6 gap-4 grid-cols-1 2xl:mx-16 mx-4 pb-20'>
@@ -95,7 +94,7 @@ const Projects = () => {
                     
                 </div> */}
             </div>
-            <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
+            {/* <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div> */}
         </div>
     </div>
                     

@@ -28,26 +28,38 @@ function App() {
     <div>
       
         <Navbar/>
-        <Hero/>
-        <About/>
-        <Services/>
-        <Skill/>
-        <Projects/>
-        <Contact/>
+        <div id="hero"><Hero/></div>
+        <div id="about"><About/></div>
+        <div id="services"><Services/></div>
+        <div id="skill"><Skill/></div>
+        <div id="projects"><Projects/></div>
+        <div id="contact"><Contact/></div>
         <Footer/>
         
+          
+
+       
+         
+
+        
+       
+        
+        
+        
+       
     
           
-{/* 
-        <Routes>
-            <Route path='/hero' element={<Hero/>}/>
-            <Route path='/About' element={<About/>}/>
-            <Route path='/Services' element={<Services/>}/>
-            <Route path='/Skill' element={<Skill/>}/>
-            <Route path='/Projects' element={<Projects/>}/>
-            <Route path='/Contact' element={<Contact/>}/>
+{
+        // <Routes>
+        //     <Route path='/hero' element={<Hero/>}/>
+        //     <Route path='/About' element={<About/>}/>
+        //     <Route path='/Services' element={<Services/>}/>
+        //     <Route path='/Skill' element={<Skill/>}/>
+        //     <Route path='/Projects' element={<Projects/>}/>
+        //     <Route path='/Contact' element={<Contact/>}/>
             
-          </Routes>   */}
+        //   </Routes> 
+           }
       
     </div>
     

@@ -30,11 +30,11 @@ const Hero = () => {
   // }
  
   return (
-    <div className='bg-black md:h-140 h-129 pt-16'>
+    <div className='bg-black md:h-140 h-128 pt-16'>
       
         <div className='justify-evenly md:flex-row flex flex-col items-center 2xl:pb-2'>
            
-        <div className=' mx-6 xl:mr-32'>
+        <div className='mx-6 xl:mr-32'>
          
           
           <div className='' data-aos="fade-up" data-aos-delay="200">
@@ -78,7 +78,7 @@ const Hero = () => {
         
         <div className='pt-15 md:pt-2'>
           
-        <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
+        {/* <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div> */}
       </div>
       
         

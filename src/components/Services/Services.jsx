@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className=''>
       <div className='bg-black md:h-140 h-128'>
-        <div className='text-center text-blue text-4xl font-extrabold pt-10 '>Services</div>
+        <div className='text-center text-blue text-4xl font-extrabold pt-20 '>Services</div>
         <div className='flex xl:mx-16 flex-col mx-7 md:ml-8 md:flex-row xl:mx-6 2xl:mx-16 pb-24'>
           <div className='shadow shadow-blue h-64 text-center rounded-md mt-10 transform-translate-y-14 group:hover:scale-110 md:mr-4 ' data-aos="fade-up" data-aos-delay="200">
             <h2 className='text-blue text-5xl py-2 flex text-center justify-center'><BiCodeAlt /></h2>
@@ -27,7 +27,7 @@ const Services = () => {
           </div>
 
         </div>
-        <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
+        {/* <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div> */}
       </div>
       
     </div>
