@@ -16,7 +16,7 @@ import { SiMongodb } from "react-icons/si";
 const Skill = () => {
   return (
     <div className='bg-black h-141 md:h-140'>
-        <h2 className='text-center text-4xl text-blue py-4 font-extrabold pt-24 pb-16'>Skills</h2>
+        <h2 className='text-center text-4xl text-blue py-4 font-extrabold pt-56 md:pt-24 pb-16'>Skills</h2>
         <div className='grid md:grid-cols-6 md:gap-4 px-4 gap-5 ml-2  grid-cols-4 ml-2 xl:px-6 2xl:px-12 pb-24' data-aos="zoom-in" data-aos-delay="200">
             <div className=' transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out'>
                 <h6 className='text-blue text-6xl'><FaHtml5 /></h6>
