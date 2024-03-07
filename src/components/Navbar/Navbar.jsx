@@ -15,10 +15,10 @@ const Navbar = () => {
     setMenu(!menu)
 
   }
-  const closeMenu = () => {
-    setMenu(false)
+  // const closeMenu = () => {
+  //   setMenu(false)
 
-  }
+  // }
   const [header, setHeader] = useState(false)
    const scrollHeader = ()=>{
     if(window.scrollY >= 20){
@@ -56,7 +56,7 @@ const Navbar = () => {
         
         </nav>
         
-        <div className='md:hidden flex items-center mr-4'>
+        <div className='md:hidden flex items-center mr-7'>
           {menu ?
             (<LiaTimesSolid size={25} onClick={handleClick}/>
             ):(
@@ -66,7 +66,7 @@ const Navbar = () => {
 
          
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-black left-0 top-20 pt-8 pb-4 gap-8  w-full h-fit items-center transition-transform duration font-bold `}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-black left-0 top-20 pt-8 pb-4 gap-8 w-full h-fit items-center transition-transform duration font-bold `}>
         {/* <ul className='flex items-center font-bold cursor-pointer'> */}
             <Link to="hero" spy={true} smooth={true} duration={500} className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Home</Link>
             <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>About</Link>
