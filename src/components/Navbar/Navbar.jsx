@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
 // import { SiConstruct3 } from "react-icons/si";
 import { SiConekta } from "react-icons/si";
-import { FaBarsStaggered } from "react-icons/fa6"; 
+// import { FaBarsStaggered } from "react-icons/fa6"; 
  import { LiaTimesSolid } from "react-icons/lia"
+ import { AiOutlineMenuUnfold } from "react-icons/ai";
 
 
 
@@ -60,7 +61,7 @@ const Navbar = () => {
           {menu ?
             (<LiaTimesSolid size={25} onClick={handleClick}/>
             ):(
-              <FaBarsStaggered size={25} onClick={handleClick}/>
+              <AiOutlineMenuUnfold size={25} onClick={handleClick}/>
 
             )}
 
