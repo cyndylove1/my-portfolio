@@ -37,7 +37,7 @@ const Navbar = () => {
 
    },[]);
   return (
-    <div className={header ? 'z-50 w-full text-white bg-white':' text-white bg-black'}>
+    <div className={header ? 'z-50 w-full text-white bg-black':'text-white bg-black'}>
       <div className= 'header flex items-center justify-between w-full h-20 z-50 bg-black fixed'>
         <div className='flex items-center justify-center '>
           <div className=' ml-4 text-xl font-extrabold text-white 2xl:ml-16 '><span className='text-blue inline-block pr-2 text-xl'><SiConekta /></span>CYNDY.</div>

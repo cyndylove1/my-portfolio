@@ -30,7 +30,7 @@ const Contact = () => {
             icon: "error",
             title: "Oops...",
             text: "Something went wrong!",
-            
+            footer: '<a href="#">check your connections</a>'
           });
         },
       );
