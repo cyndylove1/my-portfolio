@@ -34,7 +34,7 @@ const Hero = () => {
       
         <div className='justify-evenly md:flex-row flex flex-col items-center 2xl:pb-2'>
            
-        <div className='mx-4 xl:mr-32 '>
+        <div className='mx-4 mr-32 '>
          
           
           <div className='' data-aos="fade-up" data-aos-delay="200">

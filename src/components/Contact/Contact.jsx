@@ -1,9 +1,13 @@
 import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2'
+// import Alert from '@mui/material/Alert';
 
 const Contact = () => {
+  const notify = () => toast("Sent Successfully!");
 
     const form = useRef();
 
@@ -14,15 +18,11 @@ const Contact = () => {
       .sendForm('service_nqerapm', 'template_0albnh7', form.current, {
         publicKey: 'oAjyzmxKCMONiqFu2',
       })
+      
       .then(
         () => {
           console.log('SUCCESS!');
-          Swal.fire({
-            title: "Thank You!",
-            text: "Message sent Successfully!",
-            icon: "success"
-          });
-          // alert('message sent')
+        
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <div className=''>
-        
+         <ToastContainer />
         <div className='md:h-131 xl:h-141 h-128 bg-black'>
              <h2 className='text-center text-4xl text-blue md:pt-48 pt-60 pb-10 font-extrabold'>Contacts</h2>
             <div className='flex justify-between items-center flex-col xl:flex-row'>
@@ -61,12 +61,12 @@ const Contact = () => {
                         <input type="email" placeholder='Enter your Email' name='from_email' className='py-4 px-3 my-4 w-80  md:w-full rounded-md text-black' autoComplete='off' required/>
                         <textarea name="message" id=""  placeholder=" Your Message" rows="6" className=' px-2 py-4 mr-6 w-80  md:w-full rounded-md text-black'autoComplete='off' required></textarea>
 
-                        <button type='submit' className='bg-blue mt-4  transition duration-500 ease-in-out text-black py-2 px-6 rounded-md font-bold '>Submit</button>
+                        <button type='submit' onClick={notify} className='bg-blue mt-4  transition duration-500 ease-in-out text-black py-2 px-6 rounded-md font-bold '>Submit</button>
                         
 
                         
                     </form>
-                    
+                   
                 </div>
                 
 
