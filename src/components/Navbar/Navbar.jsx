@@ -40,7 +40,7 @@ const Navbar = () => {
     <div className={header ? 'z-50 w-full text-white bg-white':' text-white bg-black'}>
       <div className= 'header flex items-center justify-between w-full h-20 z-50 bg-black fixed'>
         <div className='flex items-center justify-center '>
-          <div className=' ml-6 text-xl font-extrabold text-white 2xl:ml-16 '><span className='text-blue inline-block pr-2 text-xl'><SiConekta /></span>CYNDY.</div>
+          <div className=' ml-4 text-xl font-extrabold text-white 2xl:ml-16 '><span className='text-blue inline-block pr-2 text-xl'><SiConekta /></span>CYNDY.</div>
           
         </div>
         <nav className=' md:flex hidden py-6 md:mr-6 '>
@@ -67,7 +67,7 @@ const Navbar = () => {
 
          
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-black left-0 top-20 pt-8 pb-4 gap-8 w-full h-fit items-center transition-transform duration font-bold `}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-black left-0 top-20 pt-8 pb-4 gap-8 w-full h-fit items-center transition-transform duration font-bold  cursor-pointer`}>
         {/* <ul className='flex items-center font-bold cursor-pointer'> */}
             <Link to="hero" spy={true} smooth={true} duration={500} className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Home</Link>
             <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>About</Link>

@@ -30,17 +30,21 @@ const Hero = () => {
   // }
  
   return (
-    <div className='bg-black md:h-140 h-128 pt-16'>
+    <div className='bg-black md:h-140 h-128 pt-20'>
       
         <div className='justify-evenly md:flex-row flex flex-col items-center 2xl:pb-2'>
            
-        <div className='mx-6 xl:mr-32'>
+        <div className='mx-4 xl:mr-32 '>
          
           
           <div className='' data-aos="fade-up" data-aos-delay="200">
               <h5 className='py-4 text-2xl font-bold text-white '>Hi, I'm Cynthia Nweke</h5>
               <h1 className=' pb-2 text-5xl font-bold text-white '> <span className='text-blue'>SoftWare</span> <span className='text-purple'>Developer.</span></h1>
-              <h6 className='font-bold text-justify text-white  '>I am a Software Developer, I can provide clean code and pixel perfect design.</h6>
+              <div className=''>
+                <h6 className='font-bold text-justify text-white  '>I am a Software Developer, I can provide clean code and pixel perfect design.</h6>
+
+              </div>
+              
 
               <a href="Resume.pdf" download="Resume.pdf"><button className='bg-blue transform-translate-y-14 hover:scale-110 px-4 py-2 mt-2 font-bold text-black transition duration-500 ease-in-out rounded-md'> Download Cv</button></a>
 

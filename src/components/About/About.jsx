@@ -20,7 +20,7 @@ const About = () => {
             <div className='py-6 xl:mx-10 w-80 md:w-97' data-aos="zoom-in" data-aos-duration="300">
               <h5 className='border-blue py-6 border-b-2 border-dotted'><span className='text-blue inline-block text-3xl'><AiOutlineCheck /></span><span className='mx-4 text-3xl text-white'>90%</span><span className='text-blue text-lg font-bold'>Client Satisfaction</span></h5>
               <h5 className='border-blue py-6 border-b-2 border-dotted'><span className='text-blue inline-block text-3xl'><AiOutlineCheck /></span><span className=' mx-4 text-3xl text-white'>+2</span><span className='text-blue ml-6 text-lg font-bold'>Years of Experience</span></h5>
-              <h5 className=' py-6'><span className='text-blue inline-block text-3xl'><AiOutlineCheck /></span><span className='mx-4 text-3xl text-white'>+30</span><span className='text-blue ml-2 text-lg font-bold'>Successful Projects</span></h5>
+              <h5 className=' py-6'><span className='text-blue inline-block text-3xl'><AiOutlineCheck /></span><span className='mx-4 text-3xl text-white'>+10</span><span className='text-blue ml-2 text-lg font-bold'>Successful Projects</span></h5>
 
             </div>
             
