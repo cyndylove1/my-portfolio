@@ -9,7 +9,7 @@ const About = () => {
 
     <div className='bg-black md:h-141 xl:h-134 h-128' >
       
-        <h2 className='text-blue pb-4 text-4xl font-extrabold text-center pt-14  md:pt-20'>About Me</h2>
+        <h2 className='text-blue pb-4 text-4xl font-extrabold text-center pt-16 md:pt-20'>About Me</h2>
         <div className=' flex flex-col md:flex-row justify-between items-center py-14 md:mx-6 2xl:mx-16 mx-4' >
             <div className='' data-aos="fade-up" data-aos-duration="300">
                 <h3 className=' xl:w-82 2xl:w-83 text-lg text-justify text-white md:w-97 '>A motivated software developer with keen eye for beautiful and responsive web applications. Proficient in translating design concepts into pixel-perfect, responsive web applications that deliver exceptional user experiences. Adept at utilizing modern JavaScript frameworks to build dynamic and interactive user interfaces. Have strong collaboration skills with cross-functional teams, to deliver high-impact solutions that blend aesthetics with functionality. </h3>

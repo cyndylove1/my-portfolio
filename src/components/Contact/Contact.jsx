@@ -2,11 +2,12 @@ import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2'
-// import Alert from '@mui/material/Alert';
+
 
 const Contact = () => {
+  
   const notify = () => toast("Sent Successfully!");
 
     const form = useRef();
@@ -56,7 +57,7 @@ const Contact = () => {
                 
                                     
 
-                    <form ref={form} className='md:w-96 ml-7 lg:mr-16 md:mr-10' onSubmit={sendEmail}>
+                    <form ref={form} className='md:w-96 ml-9 lg:mr-16 md:mr-10' onSubmit={sendEmail}>
                         <input type="text" placeholder='Enter your Name' name='from_name' className='py-4 w-80 md:w-full my-4 px-3 rounded-md text-black' autoComplete='off' required/> <br />
                         <input type="email" placeholder='Enter your Email' name='from_email' className='py-4 px-3 my-4 w-80  md:w-full rounded-md text-black' autoComplete='off' required/>
                         <textarea name="message" id=""  placeholder=" Your Message" rows="6" className=' px-2 py-4 mr-6 w-80  md:w-full rounded-md text-black'autoComplete='off' required></textarea>
