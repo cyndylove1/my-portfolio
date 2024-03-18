@@ -20,7 +20,7 @@ module.exports = {
      'blue': '#9EF0F0',
      'black':'#000',
      'white':'#fff',
-     'dark':' #0a0a0a3a',
+     'dark':' #46AAA8',
      'red':'#ff0000',
      'smoke':'#f5f5f5'
      
