@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 // import {Routes, Route} from 'react-router-dom'
 import "aos/dist/aos.css"
 import Aos from "aos"
-import { BrowserRouter } from "react-router-dom";
+
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
   }, []);
   return (
     <div>
-      <BrowserRouter>
+      
         <Navbar/>
         <div id="hero"><Hero/></div>
         <div id="about"><About/></div>
@@ -37,7 +37,7 @@ function App() {
         <div id="contact"><Contact/></div>
         <Footer/>
         
-      </BrowserRouter>
+    
           
 
        
