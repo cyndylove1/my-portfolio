@@ -6,7 +6,7 @@ import Socials from "@/components/Socials";
 import Button from "@/components/Button";
 import Photo from "@/components/Photo";
 import Header from "@/components/Header";
-import PreLoader from "@/components/preLoader";
+// import PreLoader from "@/components/preLoader";
 
 
 export default function Home() {
