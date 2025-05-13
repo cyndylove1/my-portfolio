@@ -35,7 +35,9 @@ export default function Work() {
   const swiperRef = useRef<SwiperType | null>(null);
   const [project, setProject] = useState(work[0]);
 
-  const handleSlideChange = (swiper: any) => {
+  
+
+  const handleSlideChange = (swiper: SwiperType) => {
     const currentIndex = swiper.activeIndex;
     setProject(work[currentIndex]);
   };
@@ -109,7 +111,7 @@ export default function Work() {
                 slidesPerView={1}
                 className="mb-12 "
                 onSlideChange={handleSlideChange}
-                onSwiper={(swiper: any) => {
+                onSwiper={(swiper: SwiperType) => {
                   swiperRef.current = swiper;
                 }}
               >

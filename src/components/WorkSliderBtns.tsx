@@ -1,7 +1,7 @@
 "use client";
 import { useSwiper } from "swiper/react";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
-import { RiArrowLeftSLine } from "react-icons/ri";
+
 export default function WorkSliderBtns() {
   const swiper = useSwiper();
   return (

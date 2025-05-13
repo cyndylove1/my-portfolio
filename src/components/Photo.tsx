@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import profile from "../assets/laptop.png";
 
-export default function () {
+export default function Photo () {
   return (
     <>
       <div className="relative md:mt-[6rem] lg:mt-0">

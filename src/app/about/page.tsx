@@ -30,9 +30,8 @@ const About = () => {
               {skills.skillList.map((skill, index) => {
                 const Icon = skill.icon;
                 return (
-                  <div className="tooltip" data-tip={skill.name}>
+                  <div  key={index} className="tooltip" data-tip={skill.name}>
                     <div
-                      key={index}
                       className="h-[138px] text-center bg-[#27272c] rounded-lg pt-8"
                     >
                       <div className="flex items-center justify-center">

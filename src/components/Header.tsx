@@ -19,7 +19,7 @@ export default function Header() {
               </div>
 
               <motion.span
-                className="text-white inline-block"
+                className="text-white inline-block mx-4"
                 animate={{ x: [0, 10, -10, 0] }}
                 transition={{
                   duration: 2,

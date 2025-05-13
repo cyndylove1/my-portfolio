@@ -1,7 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { useRouter } from "next/navigation";
 import Socials from "@/components/Socials";
 import Button from "@/components/Button";
 import Photo from "@/components/Photo";
@@ -36,7 +34,7 @@ export default function Home() {
 
   return (
     <section>
-      <Header/>
+      <Header />
       <div className="xl:mx-20 md:mx-6 h-full pb-[3rem] custom-cursor">
         <div className="mx-auto min-h-screen">
           <div className="flex flex-col lg:flex-row items-center justify-between pb-[3rem]">
@@ -49,7 +47,7 @@ export default function Home() {
             >
               <span className="text-xl text-white">Frontend Developer</span>
               <h2 className="text-[38px] text-white md:text-[60px] leading-[1.1] font-semibold">
-                Hello I'm <br />
+                Hello I&#39;m <br />
                 <span className="text-(--accent)">Nweke Cynthia</span>
               </h2>
               <p className="md:max-w-[500px] text-white md:mb-6 mb-4">

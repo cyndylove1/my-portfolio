@@ -1,5 +1,4 @@
 "use client";
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
@@ -8,7 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 import Input from "@/components/input";
 import Label from "@/components/label";
 import Button from "@/components/Button";
-import { MdOutlineEmail } from "react-icons/md";
 import Header from "@/components/Header";
 
 export default function Contact() {
@@ -40,7 +38,7 @@ export default function Contact() {
   return (
     <>
       <Header />
-      
+
       <motion.div
         className="xl:mx-20 mx-4 md:mx-6 pt-10 pb-[7rem] min-h-screen"
         initial={{ opacity: 0 }}
@@ -58,7 +56,7 @@ export default function Contact() {
                 Have a Project?
               </h2>
               <h2 className="lg:text-5xl text-4xl md:pl-12 pt-[5px] tracking-[-5px]">
-                Let's Talk!
+                Let&#39;s Talk!
               </h2>
               {/* <ul className="steps md:steps-vertical steps-horizontal mt-[20px] md:mt-0">
                 <a
