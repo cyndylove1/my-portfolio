@@ -25,21 +25,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" type="image/png" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.ico" type="image/png" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
         <meta property="og:title" content="Cyndy-Porfolio" />
         <meta
           property="og:description"
           content="Nweke Cynthia | Frontend Engineer"
         />
-        <meta property="og:url" content="https://cyndy-dev.vercel.app/" />
+        <meta property="og:url" content="https://cyndy-portfolio.vercel.app/" />
       </head>
       <body className={JetBrainsMono.variable}>
         <CustomCursor />
         <ToastContainer />
         <StairTransition />
-        <PageTransition> {children}</PageTransition>
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
