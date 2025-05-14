@@ -36,7 +36,7 @@ export default function Home() {
     <section>
       <Header />
       <div className="xl:mx-20 md:mx-6 h-full pb-[3rem] custom-cursor">
-        <div className="mx-auto min-h-screen">
+        <div className=" min-h-screen">
           <div className="flex flex-col lg:flex-row items-center justify-between pb-[3rem]">
             {/* Text and icon section */}
             <motion.div

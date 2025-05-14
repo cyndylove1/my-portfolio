@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="favicon.ico" />
-        <link rel="icon" href="favicon.ico" type="image/png" />
+        <link rel="icon" href="/favicon.ico" type="image/png" />
         <link rel="icon" href="favicon.svg" type="image/svg+xml" />
         <meta property="og:title" content="Cyndy-Porfolio" />
         <meta
