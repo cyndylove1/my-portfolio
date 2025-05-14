@@ -10,7 +10,7 @@ const socials = [
 export default function Socials({}) {
   return (
     <>
-      <div className="flex items-center justify-center gap-2">
+      <div className="flex items-center justify-start gap-2">
         {socials.map((item, index) => {
           return (
             <a
@@ -23,6 +23,7 @@ export default function Socials({}) {
             </a>
           );
         })}
+
       </div>
     </>
   );

@@ -11,7 +11,7 @@ export default function Header() {
       <header className="pt-8 pb-14 text-white xl:mx-20 mx-4 md:mx-6 overflow-hidden">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <h1 className="text-4xl font-semibold tracking-[-5px] text-(--accent) flex items-center">
+            <h1 className="text-4xl font-semibold gap-[5px] tracking-[-5px] text-(--accent) flex items-center">
               <div className="h-[40px] w-[40px] bg-(--accent) rounded-[5px] flex items-center justify-center">
                 <span className="text-white text-2xl">
                   <SiConekta />
@@ -19,7 +19,7 @@ export default function Header() {
               </div>
 
               <motion.span
-                className="text-white inline-block mx-4"
+                className="text-white inline-block"
                 animate={{ x: [0, 10, -10, 0] }}
                 transition={{
                   duration: 2,

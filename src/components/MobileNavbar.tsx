@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
+import { SiConekta } from "react-icons/si";
 import { CiMenuFries } from "react-icons/ci";
 import { useState } from "react";
 import { LiaTimesSolid } from "react-icons/lia";
@@ -60,8 +62,25 @@ export default function MobileNavbar() {
         <nav className="flex flex-col space-y-8 p-8 mt-16 justify-center items-center">
           <div className="mt-10 mb-10 text-center">
             <Link href="/">
-              <h1 className="text-2xl font-semibold text-white">
-                cyndy<span className="text-(--accent)">.</span>
+              <h1 className="text-4xl font-semibold gap-[5px] tracking-[-5px] text-(--accent) flex items-center">
+                <div className="h-[40px] w-[40px] bg-(--accent) rounded-[5px] flex items-center justify-center">
+                  <span className="text-white text-2xl">
+                    <SiConekta />
+                  </span>
+                </div>
+
+                <motion.span
+                  className="text-white inline-block"
+                  animate={{ x: [0, 10, -10, 0] }}
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    repeatType: "loop",
+                    ease: "easeInOut",
+                  }}
+                >
+                  .
+                </motion.span>
               </h1>
             </Link>
           </div>

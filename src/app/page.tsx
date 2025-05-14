@@ -13,12 +13,12 @@ export default function Home() {
   return (
     <section>
       <Header />
-      <div className="xl:mx-20 md:mx-6 custom-cursor">
+      <div className="xl:mx-20 md:mx-6 mx-4 custom-cursor md:mt-[6rem] mt-[3rem] lg:mt-0">
         <div className="min-h-screen">
-          <div className="flex flex-col lg:flex-row items-center justify-between ">
+          <div className="flex flex-col lg:flex-row items-center justify-between">
             {/* Text and icon section */}
             <motion.div
-              className="text-center lg:text-left order-2 lg:order-none mx-2 lg:mt-0"
+              className="text-start lg:mt-0"
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, ease: "easeOut" }}
@@ -28,11 +28,11 @@ export default function Home() {
                 Hello I&#39;m <br />
                 <span className="text-(--accent)">Nweke Cynthia</span>
               </h2>
-              <p className="md:max-w-[500px] text-white md:mb-6 mb-4">
+              <p className="xl:max-w-[500px] text-white md:mb-6 mb-4">
                 I am a Frontend Developer, I can provide clean code and pixel
                 perfect design.
               </p>
-              <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-8">
+              <div className="flex flex-row items-center md:gap-8 gap-4">
                 <a
                   href="Nweke Cynthia Chinenye Resume.pdf"
                   download="Nweke Cynthia Chinenye Resume.pdf"
@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Photo section */}
             <motion.div
-              className="order-1 md:order-none"
+              className=""
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}

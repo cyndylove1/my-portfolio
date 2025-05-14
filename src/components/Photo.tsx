@@ -6,7 +6,7 @@ import profile from "../assets/mixed-race-girl.png";
 export default function Photo () {
   return (
     <>
-      <div className="relative md:mt-[6rem] lg:mt-0">
+      <div className="relative md:mt-[6rem] lg:mt-0 mt-[3rem]">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
