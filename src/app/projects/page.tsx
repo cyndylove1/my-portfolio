@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
-import work from "../work/data";
+import work from "./data";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
 import Header from "@/components/Header";
@@ -34,8 +34,6 @@ const sliderVariants = {
 export default function Work() {
   const swiperRef = useRef<SwiperType | null>(null);
   const [project, setProject] = useState(work[0]);
-
-  
 
   const handleSlideChange = (swiper: SwiperType) => {
     const currentIndex = swiper.activeIndex;
@@ -142,13 +140,13 @@ export default function Work() {
                     className="bg-(--accent) h-[25px] cursor-pointer transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out w-[25px] lg:hidden absolute left-2 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center rounded-[3px]"
                     onClick={() => swiperRef.current?.slidePrev()}
                   >
-                    <PiCaretLeftBold className="text-black" />
+                    <PiCaretLeftBold className="text-white" />
                   </button>
                   <button
                     className="bg-(--accent) h-[25px] transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out cursor-pointer w-[25px] lg:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-10 items-center justify-center rounded-[3px]"
                     onClick={() => swiperRef.current?.slideNext()}
                   >
-                    <PiCaretRightBold className="text-black" />
+                    <PiCaretRightBold className="text-white" />
                   </button>
                 </div>
               </Swiper>

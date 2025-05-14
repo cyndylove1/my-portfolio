@@ -13,7 +13,7 @@ export default function Header() {
           <Link href="/">
             <h1 className="text-4xl font-semibold tracking-[-5px] text-(--accent) flex items-center">
               <div className="h-[40px] w-[40px] bg-(--accent) rounded-[5px] flex items-center justify-center">
-                <span className="text-black text-2xl">
+                <span className="text-white text-2xl">
                   <SiConekta />
                 </span>
               </div>

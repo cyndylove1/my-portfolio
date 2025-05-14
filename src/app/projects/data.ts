@@ -19,7 +19,7 @@ const work: WorkData[] = [
     num: "01",
     title: "Suft",
     description:
-      "Suft website is an E-commerce platform that enables individuals to buy products and make payment online.",
+      "Suft website is an E-commerce platform that enables individuals to buy products and make payments online.",
     stack: [
       { name: "react" },
       { name: "tailwindcss" },

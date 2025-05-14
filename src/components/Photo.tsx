@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import profile from "../assets/laptop.png";
+import profile from "../assets/mixed-race-girl.png";
 
 export default function Photo () {
   return (
@@ -37,17 +37,9 @@ export default function Photo () {
                 duration: 1.2,
                 ease: "easeInOut",
               }}
-              className="md:w-[500px] w-full md:h-[398px] h-[420px] absolute"
+              className="w-full md:h-[398px] h-[420px] absolute"
             >
               <motion.div className="pt-12 flex justify-center">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    fill="#00d3bb"
-                    className="md:w-32 md:h-32 w-full h-full"
-                    d="M60.4,-3.5C60.4,23.4,30.2,46.8,-0.6,46.8C-31.4,46.8,-62.7,23.4,-62.7,-3.5C-62.7,-30.4,-31.4,-60.8,-0.6,-60.8C30.2,-60.8,60.4,-30.4,60.4,-3.5Z"
-                    transform="translate(100 100)"
-                  />
-                </svg>
               </motion.div>
               <Image
                 src={profile}

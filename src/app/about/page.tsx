@@ -77,7 +77,7 @@ const About = () => {
                   onClick={() => setActiveContent("about")}
                   className={`block text-center w-full px-4 py-2 rounded cursor-pointer ${
                     activeContent === "about"
-                      ? "bg-(--accent) text-black"
+                      ? "bg-(--accent) text-white"
                       : "bg-[#27272c] text-white hover:text-(--accent) transition-all duration-300 ease-in-out"
                   }`}
                 >
@@ -88,7 +88,7 @@ const About = () => {
                   onClick={() => setActiveContent("skills")}
                   className={`block text-center w-full px-4 py-2 rounded cursor-pointer ${
                     activeContent === "skills"
-                      ? "bg-(--accent) text-black"
+                      ? "bg-(--accent) text-white"
                       : "bg-[#27272c] text-white hover:text-(--accent) transition-all duration-300 ease-in-out"
                   }`}
                 >

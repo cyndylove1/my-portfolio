@@ -11,13 +11,13 @@ export default function WorkSliderBtns() {
           className="bg-(--accent) h-[25px] w-[25px] flex cursor-pointer transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out items-center justify-center rounded-[3px]"
           onClick={() => swiper.slidePrev()}
         >
-          <PiCaretLeftBold className="text-black rounded-[3px]" />
+          <PiCaretLeftBold className="text-white" />
         </button>
         <button
           className="bg-(--accent) h-[25px] w-[25px] transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out flex cursor-pointer items-center justify-center rounded-[3px]"
           onClick={() => swiper.slideNext()}
         >
-          <PiCaretRightBold className="text-black" />
+          <PiCaretRightBold className="text-white" />
         </button>
       </div>
     </>

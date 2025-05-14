@@ -4,32 +4,10 @@ import Socials from "@/components/Socials";
 import Button from "@/components/Button";
 import Photo from "@/components/Photo";
 import Header from "@/components/Header";
-// import PreLoader from "@/components/preLoader";
+
 
 
 export default function Home() {
-//   const router = useRouter();
-
-//   const [isLoading, setIsLoading] = useState(true);
-
-//  useEffect(() => {
-//     const timer = setTimeout(() => {
-//       setIsLoading(false);
-//       router.push("/"); // redirect after 7s
-//     }, 10000);
-
-//     return () => clearTimeout(timer);
-//   }, [router]);
-
-//   if (isLoading) {
-//     return (
-//       <div>
-//      <PreLoader/>
-//   </div>
-// );
-     
-  
-//   }
 
 
   return (
@@ -40,7 +18,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center justify-between pb-[3rem]">
             {/* Text and icon section */}
             <motion.div
-              className="text-center lg:text-left order-2 lg:order-none mx-2 mt-[3rem] lg:mt-0"
+              className="text-center lg:text-left order-2 lg:order-none mx-2 lg:mt-0"
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, ease: "easeOut" }}
