@@ -37,7 +37,7 @@ export default function Photo () {
                 duration: 1.2,
                 ease: "easeInOut",
               }}
-              className="md:w-[500px] w-full md:h-[398px] absolute"
+              className="md:w-[500px] w-full h-[398px] absolute"
             >
               <motion.div className="pt-12 flex justify-center">
                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">

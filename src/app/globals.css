@@ -29,7 +29,7 @@ body {
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #000;
+  background: #00d3bb #000;
   border-radius: 4px;
 }
 
