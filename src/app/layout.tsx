@@ -31,13 +31,13 @@ export default function RootLayout({
         <meta property="og:title" content="Cyndy-Porfolio" />
         <meta
           property="og:image"
-          content="https://cyndy-portfolio.vercel.app/assets/site-icon.png"
+          content="https://cyndy-dev.vercel.app/favicon.ico.png"
         />
         <meta
           property="og:description"
           content="Nweke Cynthia | Frontend Engineer"
         />
-        <meta property="og:url" content="https://cyndy-portfolio.vercel.app/" />
+        <meta property="og:url" content="https://cyndy-dev.vercel.app/" />
       </head>
       <body className={JetBrainsMono.variable}>
         <CustomCursor />
