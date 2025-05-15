@@ -31,7 +31,7 @@ export default function RootLayout({
         <meta property="og:title" content="Cyndy-Porfolio" />
         <meta
           property="og:image"
-          content="https://cyndy-dev.vercel.app/favicon.ico.png"
+          content="https://cyndy-dev.vercel.app/app/favicon.ico.png"
         />
         <meta
           property="og:description"
