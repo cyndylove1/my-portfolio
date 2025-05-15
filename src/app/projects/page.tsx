@@ -66,12 +66,17 @@ export default function Work() {
                 </div>
                 <h2 className="text-xl text-(--accent)">{project.title}</h2>
                 <h2 className="text-white">{project.description}</h2>
-                <ul className="flex gap-4">
+                <ul className="flex flex-wrap gap-4">
                   {project.stack?.map((items, index, array) => {
                     return (
-                      <li key={index} className="text-md text-(--accent)">
-                        {items.name}
-                        {index !== array.length - 1 && ","}
+                      <li
+                        key={index}
+                        className="text-md text-(--accent) break-words"
+                      >
+                        <div className="break-words">
+                          <span>{items.name}</span>
+                          {index !== array.length - 1 && <span>,</span>}
+                        </div>
                       </li>
                     );
                   })}

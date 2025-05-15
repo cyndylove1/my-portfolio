@@ -21,10 +21,11 @@ const work: WorkData[] = [
     description:
       "Suft website is an E-commerce platform that enables individuals to buy products and make payments online.",
     stack: [
-      { name: "react" },
-      { name: "tailwindcss" },
-      { name: "context" },
-
+      { name: "React" },
+      { name: "Tailwindcss" },
+      { name: "Context" },
+      { name: "Typescript" },
+      { name: "Apis" },
     ],
     image: suft,
     live: "https://getsuft.com/",
@@ -35,7 +36,12 @@ const work: WorkData[] = [
     title: "Suft-Admin",
     description:
       "Suft-Admin Dashboard is a web-based interface that provides administrators with tools to manage and monitor various aspects of a activities on the suft website.",
-    stack: [{ name: "react" }, { name: "tailwindcss" }],
+    stack: [
+      { name: "React" },
+      { name: "Tailwindcss" },
+      { name: "Javascript" },
+      { name: "Apis" },
+    ],
     image: suftAdmin,
     live: "https://getsuft.com/admin/login",
     github: "https://github.com/chequemate-org/suft-admin",
@@ -45,7 +51,7 @@ const work: WorkData[] = [
     title: "ChequeMate",
     description:
       "Chequemate is an Ajo website that Manage and control multiple Ajo groups with Chequemate you earn up to 20% interest per annum.",
-    stack: [{ name: "react" }, { name: "tailwindcss" }],
+    stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
     image: chequemate,
     live: "https://chequemateapp.com/",
     github: "https://github.com/cyndylove1/chequie",
@@ -55,7 +61,7 @@ const work: WorkData[] = [
     title: "Flow app",
     description:
       "Flow App is designed exclusively for making seamless payments.",
-    stack: [{ name: "react" }, { name: "tailwindcss" }],
+    stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
     image: flowapp,
     live: "https://flow-app-five.vercel.app/",
     github: "https://github.com/cyndylove1/Flow-app",
