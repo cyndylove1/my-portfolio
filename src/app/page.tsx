@@ -5,11 +5,7 @@ import Button from "@/components/Button";
 import Photo from "@/components/Photo";
 import Header from "@/components/Header";
 
-
-
 export default function Home() {
-
-
   return (
     <section>
       <Header />

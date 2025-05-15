@@ -54,7 +54,7 @@ export default function Work() {
         }}
         className="flex flex-col justify-center min-h-screen"
       >
-        <div className="xl:mx-20 text-white py-10 md:mx-6 mx-4">
+        <div className="xl:mx-20 text-white py-10 md:mx-6 mx-4 md:mt-[4rem] mt-[3rem] lg:mt-0">
           <div className="flex flex-col lg:flex-row gap-[30px]">
             <motion.div
               variants={textVariants}

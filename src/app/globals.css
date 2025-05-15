@@ -8,9 +8,6 @@
   --accent: #7dbf5b;
   --hover: #00e187;
 }
-/* * {
-  cursor: none !important;
-} */
 
 body {
   font-family: var(--font-jetBrainsMono);
@@ -64,56 +61,3 @@ body {
   animation: shake 0.5s ease-in-out;
 }
 
-/* cursor */
-/* .cursor-dot {
-  width: 5px;
-  height: 5px;
-  background-color: var(--accent);
-}
-.cursor-outline {
-  width: 30px;
-  height: 30px;
-  border: 2px solid white;
-}
-.cursor-dot,
-.cursor-outline {
-  position: fixed;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, 5);
-  border-radius: 50%;
-  z-index: 1;
-  pointer-events: none;
-} */
-
-/* preloader */
-/* .typewriter{
-  position: relative;
-  -webkit-text-stroke: #00d3bb;
-  stroke: 2px white;
-}
-h1::before{
-  content:attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #00d3bb;
-  letter-spacing: -15px;
-  -webkit-text-stroke: white;
-  overflow: hidden;
-  border-right: 2px solid #00d3bb;
-  animation: animate 6s linear infinite;
-
-}
-@keyframes animate  {
-  0%, 10%, 100%
-  {
-    width:0;
-  }
-  70%, 90%
-  {
-    width:100%;
-  }
-} */

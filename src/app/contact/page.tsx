@@ -40,7 +40,7 @@ export default function Contact() {
       <Header />
 
       <motion.div
-        className="xl:mx-20 mx-4 md:mx-6 pt-10 pb-[7rem] min-h-screen"
+        className="xl:mx-20 mx-4 md:mx-6 pt-10 pb-[7rem] min-h-screen md:mt-[5rem] mt-[3rem] lg:mt-0"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.5 }}

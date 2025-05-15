@@ -63,7 +63,7 @@ const About = () => {
         transition={{ delay: 0.2, duration: 0.5 }}
         className="min-h-screen"
       >
-        <div className="xl:mx-20 mx-4 md:mx-6 rounded-lg overflow-hidden">
+        <div className="xl:mx-20 mx-4 md:mx-6 rounded-lg overflow-hidden md:mt-[5rem] mt-[3rem] lg:mt-0">
           <div className="md:flex flex-col md:flex-row gap-[5rem] pt-10">
             {/* Left Navigation */}
             <motion.div
