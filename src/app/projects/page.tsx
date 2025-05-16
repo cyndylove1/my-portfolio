@@ -9,7 +9,6 @@ import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
 import work from "./data";
-import WorkSliderBtns from "@/components/WorkSliderBtns";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
 import Header from "@/components/Header";
 
@@ -138,20 +137,20 @@ export default function Work() {
                   );
                 })}
                 {/* button */}
-                <WorkSliderBtns />
+                {/* <WorkSliderBtns /> */}
 
                 <div className="justify-end gap-2 mt-4 ">
                   <button
-                    className="bg-(--accent) h-[25px] cursor-pointer transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out w-[25px] lg:hidden absolute left-2 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center rounded-[3px]"
+                    className="bg-black/50 h-[30px] md:h-[50px] cursor-pointer transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out w-[30px] md:w-[50px] absolute left-2 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center rounded-[3px]"
                     onClick={() => swiperRef.current?.slidePrev()}
                   >
-                    <PiCaretLeftBold className="text-white" />
+                    <PiCaretLeftBold className="text-white text-md md:text-2xl" />
                   </button>
                   <button
-                    className="bg-(--accent) h-[25px] transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out cursor-pointer w-[25px] lg:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-10 items-center justify-center rounded-[3px]"
+                    className="bg-black/50 h-[30px] md:h-[50px] transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out cursor-pointer w-[30px] md:w-[50px] flex absolute right-2 top-1/2 -translate-y-1/2 z-10 items-center justify-center rounded-[3px]"
                     onClick={() => swiperRef.current?.slideNext()}
                   >
-                    <PiCaretRightBold className="text-white" />
+                    <PiCaretRightBold className="text-white text-md md:text-2xl" />
                   </button>
                 </div>
               </Swiper>
