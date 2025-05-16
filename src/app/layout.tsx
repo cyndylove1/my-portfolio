@@ -15,6 +15,8 @@ const JetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Cyndy-Portfolio",
   description: "Nweke Cynthia | Frontend Engineer",
+  icons: "https://cyndy-dev.vercel.app/favicon.ico",
+  
 };
 
 export default function RootLayout({
