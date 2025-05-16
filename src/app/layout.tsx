@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   title: "Cyndy-Portfolio",
   description: "Nweke Cynthia | Frontend Engineer",
   icons: "https://cyndy-dev.vercel.app/favicon.ico",
-  
 };
 
 export default function RootLayout({
@@ -46,7 +45,7 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest" />
 
-        <meta property="og:title" content="Cyndy-Porfolio" />
+        <meta property="og:title" content="Cyndy-Portfolio" />
         <meta
           property="og:image"
           content="https://cyndy-dev.vercel.app/favicon.ico"
