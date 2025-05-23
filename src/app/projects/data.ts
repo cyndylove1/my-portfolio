@@ -82,7 +82,7 @@ const work: WorkData[] = [
       { name: "recharts" },
     ],
     image: lapo,
-    live: "https://lapo-psi.vercel.app/",
+    live: "https://lapo-psi.vercel.app/dashboard",
     github: "https://github.com/cyndylove1/Lapo",
   },
 ];
