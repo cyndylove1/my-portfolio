@@ -25,7 +25,7 @@ const work: WorkData[] = [
       { name: "React" },
       { name: "Tailwindcss" },
       { name: "Daisy UI" },
-      { name: "Context" },
+      { name: "Context-Api" },
       { name: "Typescript" },
       { name: "Restful-Apis" },
     ],
