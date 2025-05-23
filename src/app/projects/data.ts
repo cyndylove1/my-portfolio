@@ -3,6 +3,7 @@ import flowapp from "../../assets/flow app1.png";
 import chequemate from "../../assets/chequemate 2.png";
 import suft from "../../assets/suft.png";
 import suftAdmin from "../../assets/suft-admin1.png";
+import lapo from "../../assets/dashboard 2.png";
 
 interface WorkData {
   num?: string;
@@ -23,6 +24,7 @@ const work: WorkData[] = [
     stack: [
       { name: "React" },
       { name: "Tailwindcss" },
+      { name: "Daisy UI" },
       { name: "Context" },
       { name: "Typescript" },
       { name: "Restful-Apis" },
@@ -65,6 +67,23 @@ const work: WorkData[] = [
     image: flowapp,
     live: "https://flow-app-five.vercel.app/",
     github: "https://github.com/cyndylove1/Flow-app",
+  },
+  {
+    num: "05",
+    title: "Lapo dashboard",
+    description:
+      "A simple admin dashboard.",
+    stack: [
+      { name: "React" },
+      { name: "Tailwindcss" },
+      { name: "Typescript" },
+      { name: "Material UI" },
+      { name: "react-chartjs-2" },
+      { name: "recharts" },
+    ],
+    image: lapo,
+    live: "https://lapo-psi.vercel.app/",
+    github: "https://github.com/cyndylove1/Lapo",
   },
 ];
 
