@@ -48,18 +48,18 @@ const work: WorkData[] = [
     live: "https://getsuft.com/admin/login",
     github: "https://github.com/chequemate-org/suft-admin",
   },
+  // {
+  //   num: "03",
+  //   title: "ChequeMate",
+  //   description:
+  //     "Chequemate is an Ajo website that Manage and control multiple Ajo groups with Chequemate you earn up to 20% interest per annum.",
+  //   stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
+  //   image: chequemate,
+  //   live: "https://chequemateapp.com/",
+  //   github: "https://github.com/cyndylove1/chequie",
+  // },
   {
     num: "03",
-    title: "ChequeMate",
-    description:
-      "Chequemate is an Ajo website that Manage and control multiple Ajo groups with Chequemate you earn up to 20% interest per annum.",
-    stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
-    image: chequemate,
-    live: "https://chequemateapp.com/",
-    github: "https://github.com/cyndylove1/chequie",
-  },
-  {
-    num: "04",
     title: "Flow app",
     description:
       "Flow App is designed exclusively for making seamless payments.",
@@ -69,7 +69,7 @@ const work: WorkData[] = [
     github: "https://github.com/cyndylove1/Flow-app",
   },
   {
-    num: "05",
+    num: "04",
     title: "Lapo dashboard",
     description:
       "A simple admin dashboard.",
