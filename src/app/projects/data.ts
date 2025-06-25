@@ -59,7 +59,7 @@ const work: WorkData[] = [
     github: "https://github.com/cyndylove1/chequie",
   },
   {
-    num: "03",
+    num: "04",
     title: "Flow app",
     description:
       "Flow App is designed exclusively for making seamless payments.",
@@ -69,7 +69,7 @@ const work: WorkData[] = [
     github: "https://github.com/cyndylove1/Flow-app",
   },
   {
-    num: "04",
+    num: "05",
     title: "Lapo dashboard",
     description:
       "A simple admin dashboard.",

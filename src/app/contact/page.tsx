@@ -58,44 +58,6 @@ export default function Contact() {
               <h2 className="lg:text-5xl text-4xl md:pl-12 pt-[5px] tracking-[-5px]">
                 Let&#39;s Talk!
               </h2>
-              {/* <ul className="steps md:steps-vertical steps-horizontal mt-[20px] md:mt-0">
-                <a
-                  href="mailto:Nwekecynthia2015@gmail.com"
-                  className="step step-accent "
-                  target="blank"
-                >
-                  <span className="step-icon">
-                    <MdOutlineEmail className="hover:text-white text-black transition-all duration-300 ease-in-out" />
-                  </span>
-                </a>
-                <a
-                  href="https://linkedin.com/in/cyndylove1"
-                  className="step step-accent"
-                  target="blank"
-                >
-                  <span className="step-icon">
-                    <FaLinkedinIn className="hover:text-white text-black transition-all duration-300 ease-in-out" />
-                  </span>
-                </a>
-                <a
-                  href="https://twitter.com/cyndynweke81"
-                  target="blank"
-                  className="step step-accent"
-                >
-                  <span className="step-icon">
-                    <FaTwitter className="hover:text-white text-black transition-all duration-300 ease-in-out" />
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/cyndylove1"
-                  className="step step-accent"
-                  target="blank"
-                >
-                  <span className="step-icon">
-                    <FaGithub className="hover:text-white text-black transition-all duration-300 ease-in-out" />
-                  </span>
-                </a>
-              </ul> */}
             </div>
           </motion.div>
 
