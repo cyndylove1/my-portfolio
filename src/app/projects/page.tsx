@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useRef } from "react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper";
 import "swiper/css";
@@ -12,16 +12,22 @@ import work from "./data";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
 import Header from "@/components/Header";
 
-const textVariants = {
+
+
+const textVariants: Variants = {
   hidden: { opacity: 0, x: -100 },
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 2, ease: "easeOut" },
+    transition: {
+      duration: 2,
+      ease: "easeOut",
+    },
   },
 };
 
-const sliderVariants = {
+
+const sliderVariants: Variants = {
   hidden: { opacity: 0, x: 100 },
   visible: {
     opacity: 1,
