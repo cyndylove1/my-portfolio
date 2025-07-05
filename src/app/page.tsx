@@ -25,7 +25,7 @@ export default function Home() {
                 <span className="text-(--accent)">Nweke Cynthia</span>
               </h2>
               <p className="xl:max-w-[500px] text-white md:mb-6 mb-4">
-                I am a Frontend Developer,I can provide clean code and <br/>
+                I am a Frontend Developer,I can provide clean code and
                 pixel perfect designs.
               </p>
               <div className="flex flex-row items-center md:gap-8 gap-4">
