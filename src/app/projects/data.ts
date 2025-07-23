@@ -1,6 +1,5 @@
 import { StaticImageData } from "next/image";
 import flowapp from "../../assets/flow app1.png";
-import chequemate from "../../assets/chequemate 2.png";
 import suft from "../../assets/suft.png";
 import suftAdmin from "../../assets/suft-admin1.png";
 import lapo from "../../assets/dashboard 2.png";
