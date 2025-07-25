@@ -29,7 +29,7 @@ const work: WorkData[] = [
       { name: "Restful-Apis" },
     ],
     image: suft,
-    live: "https://getsuft.com/",
+    live: "https://suft.vercel.app/",
     github: "https://github.com/Cisco-A/suft",
   },
   {
