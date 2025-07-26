@@ -3,6 +3,7 @@ import flowapp from "../../assets/flow app1.png";
 import suft from "../../assets/suft.png";
 import suftAdmin from "../../assets/suft-admin1.png";
 import lapo from "../../assets/dashboard 2.png";
+import chequemate from "../../assets/chequemate 2.png"
 
 interface WorkData {
   num?: string;
@@ -29,8 +30,8 @@ const work: WorkData[] = [
       { name: "Restful-Apis" },
     ],
     image: suft,
-    live: "https://suft.vercel.app/",
-    github: "https://github.com/Cisco-A/suft",
+    live: "https://suft-comfort.vercel.app/",
+    github: "https://github.com/cyndylove1/suft",
   },
   {
     num: "02",
@@ -47,16 +48,16 @@ const work: WorkData[] = [
     live: "https://getsuft.com/admin/login",
     github: "https://github.com/chequemate-org/suft-admin",
   },
-  // {
-  //   num: "03",
-  //   title: "ChequeMate",
-  //   description:
-  //     "Chequemate is an Ajo website that Manage and control multiple Ajo groups with Chequemate you earn up to 20% interest per annum.",
-  //   stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
-  //   image: chequemate,
-  //   live: "https://chequemateapp.com/",
-  //   github: "https://github.com/cyndylove1/chequie",
-  // },
+  {
+    num: "03",
+    title: "ChequeMate",
+    description:
+      "Chequemate is an Ajo website that Manage and control multiple Ajo groups with Chequemate you earn up to 20% interest per annum.",
+    stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
+    image: chequemate,
+    live: "https://chequiemate.vercel.app/",
+    github: "https://github.com/cyndylove1/chequie",
+  },
   {
     num: "03",
     title: "Flow app",
@@ -70,8 +71,7 @@ const work: WorkData[] = [
   {
     num: "04",
     title: "Lapo dashboard",
-    description:
-      "A simple admin dashboard.",
+    description: "A simple admin dashboard.",
     stack: [
       { name: "React" },
       { name: "Tailwindcss" },
