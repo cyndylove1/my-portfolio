@@ -3,12 +3,11 @@ import { motion } from "framer-motion";
 import Socials from "@/components/Socials";
 import Button from "@/components/Button";
 import Photo from "@/components/Photo";
-import Header from "@/components/Header";
+
 
 export default function Home() {
   return (
     <section>
-      <Header />
       <div className="xl:mx-20 md:mx-6 mx-4 custom-cursor md:mt-[6rem] mt-[3rem] lg:mt-0">
         <div className="min-h-screen">
           <div className="flex flex-col lg:flex-row items-center justify-between">

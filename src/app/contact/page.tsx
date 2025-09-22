@@ -2,12 +2,12 @@
 import { motion } from "framer-motion";
 import { useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
-import {  toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Input from "@/components/input";
 import Label from "@/components/label";
 import Button from "@/components/Button";
-import Header from "@/components/Header";
+
 
 export default function Contact() {
   const form = useRef<HTMLFormElement | null>(null);
@@ -37,8 +37,6 @@ export default function Contact() {
 
   return (
     <>
-      <Header />
-
       <motion.div
         className="xl:mx-20 mx-4 md:mx-6 pt-10 pb-[7rem] min-h-screen md:mt-[5rem] mt-[3rem] lg:mt-0"
         initial={{ opacity: 0 }}

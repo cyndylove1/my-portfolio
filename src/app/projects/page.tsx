@@ -10,7 +10,7 @@ import Link from "next/link";
 import Image from "next/image";
 import work from "./data";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
-import Header from "@/components/Header";
+
 
 const textVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -41,7 +41,6 @@ export default function Work() {
 
   return (
     <>
-      <Header />
       <motion.section
         initial="hidden"
         animate="visible"

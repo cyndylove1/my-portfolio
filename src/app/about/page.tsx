@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import AboutMe, { skills } from "../about/data";
-import Header from "@/components/Header";
+
 
 type ContentType = "about" | "skills";
 
@@ -30,10 +30,8 @@ const About = () => {
               {skills.skillList.map((skill, index) => {
                 const Icon = skill.icon;
                 return (
-                  <div  key={index} className="tooltip" data-tip={skill.name}>
-                    <div
-                      className="h-[138px] text-center bg-[#27272c] rounded-lg pt-8"
-                    >
+                  <div key={index} className="tooltip" data-tip={skill.name}>
+                    <div className="h-[138px] text-center bg-[#27272c] rounded-lg pt-8">
                       <div className="flex items-center justify-center">
                         <motion.div
                           whileHover={{ scale: 1.2 }}
@@ -56,7 +54,6 @@ const About = () => {
 
   return (
     <div>
-      <Header />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
