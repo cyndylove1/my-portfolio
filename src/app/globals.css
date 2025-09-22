@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "tailwindcss";
@@ -9,10 +10,23 @@
   --hover: #00e187;
 }
 
+
 body {
   font-family: var(--font-jetBrainsMono);
   background-color: var(--primary);
 }
+
+
+/* @font-face {
+  font-family: "JetbrainsMonoRegular";
+  src: url("../assets/fonts/JetbrainsMonoRegular-RpvmM.ttf") format("ttf"),
+    url("../assets/fonts/JetbrainsMonoRegular-RpvmM.ttf") format("ttf"),
+    url("../assets/fonts/JetbrainsMonoRegular-RpvmM.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+} */
+
 
 /* styles/scrollbar.css */
 .custom-scrollbar {

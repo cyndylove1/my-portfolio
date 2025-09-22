@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
-import "./globals.css";
+import { ToastContainer } from "react-toastify";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
-import CustomCursor from "@/components/customCursor";
-import { ToastContainer } from "react-toastify";
-import Header from "@/components/Header";
+import "./globals.css";
+
 
 const JetBrainsMono = JetBrains_Mono({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -58,8 +57,6 @@ export default function RootLayout({
         <meta property="og:url" content="https://cyndy-dev.vercel.app/" />
       </head>
       <body className={JetBrainsMono.variable}>
-        <Header/>
-        <CustomCursor />
         <ToastContainer />
         <StairTransition />
         <PageTransition>{children}</PageTransition>

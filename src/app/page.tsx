@@ -24,13 +24,13 @@ export default function Home() {
                 <span className="text-(--accent)">Nweke Cynthia</span>
               </h2>
               <p className="xl:max-w-[500px] text-white md:mb-6 mb-4">
-                I am a Frontend Developer,I can provide clean code and pixel
-                perfect designs.
+                I am a Frontend Developer,I can provide clean code and
+                pixel perfect designs.
               </p>
               <div className="flex flex-row items-center md:gap-8 gap-4">
                 <a
-                  href="Nweke Cynthia Chinenye Resume.pdf"
-                  download="Nweke Cynthia Chinenye Resume.pdf"
+                  href="Nweke Cynthia Resume.pdf"
+                  download="Nweke Cynthia Resume.pdf"
                 >
                   <Button text="Download Cv" className="px-6" showIcon={true} />
                 </a>
