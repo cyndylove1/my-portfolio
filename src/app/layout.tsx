@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 import "./globals.css";
+import Header from "@/components/Header";
 
 
 const JetBrainsMono = JetBrains_Mono({
@@ -57,6 +58,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://cyndy-dev.vercel.app/" />
       </head>
       <body className={JetBrainsMono.variable}>
+        <Header/>
         <ToastContainer />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
