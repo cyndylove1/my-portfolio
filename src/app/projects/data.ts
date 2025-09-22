@@ -3,7 +3,8 @@ import flowapp from "../../assets/flow app1.png";
 import suft from "../../assets/suft.png";
 import suftAdmin from "../../assets/suft-admin1.png";
 import lapo from "../../assets/dashboard 2.png";
-import chequemate from "../../assets/chequemate 2.png"
+import chequemate from "../../assets/chequemate 2.png";
+import mental from "../../assets/mental.png";
 
 interface WorkData {
   num?: string;
@@ -22,7 +23,7 @@ const work: WorkData[] = [
     description:
       "Suft website is an E-commerce platform that enables individuals to buy products and make payments online.",
     stack: [
-      { name: "React" },
+      { name: "React js" },
       { name: "Tailwindcss" },
       { name: "Daisy UI" },
       { name: "Context-Api" },
@@ -39,7 +40,7 @@ const work: WorkData[] = [
     description:
       "Suft-Admin Dashboard is a web-based interface that provides administrators with tools to manage and monitor various aspects of a activities on the suft website.",
     stack: [
-      { name: "React" },
+      { name: "React js" },
       { name: "Tailwindcss" },
       { name: "Javascript" },
       { name: "Restful-Apis" },
@@ -50,30 +51,54 @@ const work: WorkData[] = [
   },
   {
     num: "03",
+    title: "Mental Health Assessment",
+    description: "A Mental Health Assessment Form",
+    stack: [
+      { name: "Next js" },
+      { name: "Tailwindcss" },
+      { name: "Typescript" },
+      { name: "Daisy UI" },
+      { name: "Material UI" },
+      { name: "jest" },
+    ],
+    image: mental,
+    live: "https://mental-health-form.vercel.app/",
+    github: "https://github.com/cyndylove1/mental-health",
+  },
+  {
+    num: "04",
     title: "ChequeMate",
     description:
       "Chequemate is an Ajo website that Manage and control multiple Ajo groups with Chequemate you earn up to 20% interest per annum.",
-    stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
+    stack: [
+      { name: "React js" },
+      { name: "Tailwindcss" },
+      { name: "Javascript" },
+    ],
     image: chequemate,
     live: "https://chequiemate.vercel.app/",
     github: "https://github.com/cyndylove1/chequie",
   },
   {
-    num: "03",
+    num: "05",
     title: "Flow app",
     description:
       "Flow App is designed exclusively for making seamless payments.",
-    stack: [{ name: "React" }, { name: "Tailwindcss" }, { name: "Javascript" }],
+    stack: [
+      { name: "React js" },
+      { name: "Tailwindcss" },
+      { name: "Javascript" },
+    ],
     image: flowapp,
     live: "https://flow-app-five.vercel.app/",
     github: "https://github.com/cyndylove1/Flow-app",
   },
   {
-    num: "04",
+    num: "06",
     title: "Lapo dashboard",
     description: "A simple admin dashboard.",
     stack: [
-      { name: "React" },
+      { name: "React js" },
       { name: "Tailwindcss" },
       { name: "Typescript" },
       { name: "Material UI" },
