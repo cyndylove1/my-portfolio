@@ -12,11 +12,20 @@
 
 
 body {
-  font-family: var(--font-jetBrainsMono);
+  font-family: 'JetbrainsMonoRegular';
   background-color: var(--primary);
 }
 
 
+@font-face {
+  font-family: "JetbrainsMonoRegular";
+  src: url("../assets/fonts/JetbrainsMonoRegular-RpvmM.ttf") format("ttf"),
+    url("../assets/fonts/JetbrainsMonoRegular-RpvmM.ttf") format("ttf"),
+    url("../assets/fonts/JetbrainsMonoRegular-RpvmM.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
 
 
 /* styles/scrollbar.css */

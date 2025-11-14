@@ -8,7 +8,6 @@ import Input from "@/components/input";
 import Label from "@/components/label";
 import Button from "@/components/Button";
 
-
 export default function Contact() {
   const form = useRef<HTMLFormElement | null>(null);
 

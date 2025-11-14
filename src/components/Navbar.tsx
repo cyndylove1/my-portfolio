@@ -23,7 +23,7 @@ const links = [
 
 export default function Navbar() {
   const pathName = usePathname();
-  console.log(pathName);
+  // console.log(pathName);
   return (
     <>
       <nav className="flex gap-8 items-center">
